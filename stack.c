@@ -18,3 +18,8 @@ void main(void)
 		P3 = f;
 	}
 }
+
+int _sdcc_external_startup()
+{
+	return 1;
+}
